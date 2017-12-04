@@ -1,24 +1,26 @@
- "UserGroups": 
-    {
-        "0": {
-                "0": {
-                    "testFriendlyName" : "defaultGroup",
-                    "controllerVersion" : "defaultVersion",
-                    "weight" : 80
-                    }
-            },
-        "6" :{
-                "1": {
-                    "testFriendlyName" : "control",
-                    "controllerVersion" : "defaultVersion",
-                    "weight" : 10
-                    }
-            },
-        "8": {
-                "1": {
-                    "testFriendlyName" : "gradual",
-                    "controllerVersion" : "@@version",
-                    "weight" : 10
-                    }
-             }    
-    }
+ {
+    "UserGroups": 
+        {
+            "0": {
+                    "0": {
+                        "testFriendlyName" : "defaultGroup",
+                        "controllerVersion" : "defaultVersion",
+                        "weight" : 80
+                        }
+                },
+            "6" :{
+                    "1": {
+                        "testFriendlyName" : "control",
+                        "controllerVersion" : "defaultVersion",
+                        "weight" : 10
+                        }
+                },
+            "8": {
+                    "1": {
+                        "testFriendlyName" : "gradual",
+                        "controllerVersion" : "@@version",
+                        "weight" : 10
+                        }
+                 }    
+        }
+}
